@@ -20,6 +20,8 @@
         font-family: 'Merienda', cursive;
     }
 
+   
+
     body {
         font-size: 16px;
     }
@@ -35,25 +37,7 @@
         opacity: 1
     }
 
-    .fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.fa-google {
-  background: #dd4b39;
-  color: white;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
+ 
 </style>
 
 <body>
@@ -64,6 +48,7 @@
         <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft"
             style="width:100%;font-size:22px">Close Menu</a>
         <div class="w3-container">
+            <img src="images/LOGO.png" id="logo4"> 
             <h3 class="w3-padding-64"><b>Menu</b></h3>
         </div>
         <div class="w3-bar-block">
@@ -80,7 +65,7 @@
     <header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
         <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
     </header>
-    <img src="images/LOGO.png" id="logo4">
+    
 
     <!-- Overlay effect when opening sidebar on small screens -->
     <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu"
@@ -90,20 +75,38 @@
     <div class="w3-main" style="margin-left:340px;margin-right:40px">
 
         <!-- Header -->
+       
         <div class="w3-container" style="margin-top:80px;color:#F33756;" id="showcase">
-            <h1 class="w3-jumbo"><b>Hair Whisperer</b></h1>
+            <h1 class="w3-jumbo" style="text-align: center;"><b><i>Hair Whisperer</i></b></h1>
             <br>
-            <h1 class="w3-xxxlarge w3-text-brown"><b>Showcase.</b></h1>
-            <hr style="width:50px;border:5px solid #F3D437" class="w3-round">
         </div>
-
+        <!-- Services -->
+        <div class="w3-container" id="services" style="margin-top:75px">
+            <h1 class="w3-xxxlarge w3-text-brown"><b>Services.</b></h1>
+            <hr style="width:50px;border:5px solid #F3D437" class="w3-round">
+            <p class="headhead">"My Fingers Whisper to the Hair and Make it Grow" </p>
+            <p>An active hair stylist in the Aurora metro area</p>
+            <ul>
+                <li>I can travel to you</li>
+                <li>I take home appointents</li>
+                <li>Flexible scheduling times</li>
+            </ul>
+            
+        </div>
+        <br>
+        <br>
+        
+        
+        <h1 class="w3-xxxlarge w3-text-brown"><b>Showcase.</b></h1>
+        <hr style="width:50px;border:5px solid #F3D437" class="w3-round">
+        
         <!-- Photo grid (modal) -->
         <div class="w3-row-padding">
             <div class="w3-half">
                 <img src="https://scontent.fapa1-2.fna.fbcdn.net/v/t1.6435-9/188587578_4296101067101470_6859651213831884093_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=hsLn7_r0aiwAX_Fd9ia&_nc_ht=scontent.fapa1-2.fna&oh=ab601fccd00bcb0c048618ff5cd727ee&oe=60E010D4" style="width:150px;height:200px;border:solid 20px silver" onclick="onClick(this)"
-                    alt="Concrete meets bricks">
+                alt="Concrete meets bricks">
                 <img src="https://scontent.fapa1-1.fna.fbcdn.net/v/t1.6435-9/142900721_3962532753791638_1195202900482234301_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=mA1W9pFzlnsAX9azj6M&_nc_oc=AQkP-M_0D0VdVbbletfUdJilyntrCBaO9LwgHCxDxHBJ2WZ_1FKH-b-l5mMrBrSTvAs&_nc_ht=scontent.fapa1-1.fna&oh=1d915d9f47260656d1298858ccf8e653&oe=60DFAABE" style="width:150px;height:200px;border:solid 20px silver" onclick="onClick(this)"
-                    alt="Light, white and tight scandinavian design">
+                alt="Light, white and tight scandinavian design">
                 <img src="https://scontent.fapa1-2.fna.fbcdn.net/v/t1.6435-9/100797983_3262990787079175_9054025552297459712_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=cGfHDiN9-WkAX8v0yCd&_nc_ht=scontent.fapa1-2.fna&oh=be8867d9b81c8f41c11649dc865e15c9&oe=60DE862D" style="width:150px;height:200px;border:solid 20px #F337B4" onclick="onClick(this)"
                     alt="White walls with designer chairs">
                     <img src="https://scontent.fapa1-2.fna.fbcdn.net/v/t1.6435-9/100797983_3262990787079175_9054025552297459712_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=cGfHDiN9-WkAX8v0yCd&_nc_ht=scontent.fapa1-2.fna&oh=be8867d9b81c8f41c11649dc865e15c9&oe=60DE862D" style="width:150px;height:200px;border:solid 20px silver" onclick="onClick(this)"
@@ -138,26 +141,14 @@
             </div>
         </div>
 
-        <!-- Services -->
-        <div class="w3-container" id="services" style="margin-top:75px">
-            <h1 class="w3-xxxlarge w3-text-brown"><b>Services.</b></h1>
-            <hr style="width:50px;border:5px solid #F3D437" class="w3-round">
-            <p class="headhead">"My Fingers Whisper to the Hair and Make it Grow" </p>
-            <p>An active hair stylist in the Aurora metro area</p>
-            <ul>
-                <li>I can travel to you</li>
-                <li>I take home appointents</li>
-                <li>Flexible scheduling times</li>
-            </ul>
-           
-        </div>
+      
 
         <!-- Designers -->
         <div class="w3-container" id="designers" style="margin-top:75px">
-            <h1 class="w3-xxxlarge w3-text-brown"><b>Designer.</b></h1>
+            <h1 class="w3-xxxlarge w3-text-brown"><b>Stylist.</b></h1>
             <hr style="width:50px;border:8px solid #F3D437" class="w3-round">
             <h2>Lizzy Rushing</h2>
-            <img src="https://scontent.fapa1-1.fna.fbcdn.net/v/t1.6435-9/90099866_3094782343900021_8460472427883790336_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=q5lonaQtEYAAX_B2OlZ&_nc_ht=scontent.fapa1-1.fna&oh=16a262c14c87aa5e883de64157bc346c&oe=60DF52DE" alt="The stylist" style= "width:250px;height:300px;border: dotted 5px #F337B4;">
+            <img src="https://scontent.fapa1-1.fna.fbcdn.net/v/t1.6435-9/90099866_3094782343900021_8460472427883790336_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=q5lonaQtEYAAX_B2OlZ&_nc_ht=scontent.fapa1-1.fna&oh=16a262c14c87aa5e883de64157bc346c&oe=60DF52DE" alt="The stylist" id="photoo-main" style= "width:250px;height:300px;border: dotted 5px #F337B4;">
             <p>The best stylist in Aurora Metro.</p>
             <p>My real name is Lizzie lol rushinglizzie@yahoo.com and can we do a deposit for hair appointments to be
                 set and let them know I have been doing this since I was 11 and braiding hair is my passion and that my
@@ -213,7 +204,7 @@
         <div class="w3-row-padding">
             <div class="w3-half w3-margin-bottom">
                 <ul class="w3-ul w3-light-grey w3-center">
-                    <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+                    <li class="w3-dark-grey w3-xlarge w3-padding-32">Services</li>
                     <li class="w3-padding-16">Floorplanning</li>
                     <li class="w3-padding-16">10 hours support</li>
                     <li class="w3-padding-16">Photography</li>
@@ -231,7 +222,7 @@
 
             <div class="w3-half">
                 <ul class="w3-ul w3-light-grey w3-center">
-                    <li class="w3-red w3-xlarge w3-padding-32">Pro</li>
+                    <li class="w3-red w3-xlarge w3-padding-32">Prices</li>
                     <li class="w3-padding-16">Floorplanning</li>
                     <li class="w3-padding-16">50 hours support</li>
                     <li class="w3-padding-16">Photography</li>

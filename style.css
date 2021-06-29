@@ -10,10 +10,15 @@ body {
 }
 
 #logo4 {
-    margin-left: 600px;
+   
+    height: 150px;
     
 }
 
 img {
     border-radius: 30%;
+}
+
+#photoo-main {
+    border: solid 5px inset; 
 }
