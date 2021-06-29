@@ -2,3 +2,18 @@
     font-size: 40px;
     font-family: cursive;
 }
+
+
+
+body {
+    background-color: pink;
+}
+
+#logo4 {
+    margin-left: 600px;
+    
+}
+
+img {
+    border-radius: 30%;
+}
