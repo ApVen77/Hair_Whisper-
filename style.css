@@ -6,7 +6,7 @@
 
 
 body {
-    background-color: pink;
+    background-color: #E9eff0;
 }
 
 #logo4 {
@@ -21,4 +21,8 @@ img {
 
 #photoo-main {
     border: solid 5px inset; 
+}
+
+#mySidebar {
+    background-color: hotpink;
 }
