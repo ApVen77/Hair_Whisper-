@@ -1,12 +1,24 @@
+* {
+    list-style-type: none;
+}
+
+
+
 .headhead {
     font-size: 40px;
     font-family: cursive;
+    color: rgb(207, 0, 207);
+    font-style: italic;
+}
+
+ul {
+    font-size: larger; 
 }
 
 
 
 body {
-    background-color: #E9eff0;
+    background-image: url("images/spikes.png");
 }
 
 #logo4 {
@@ -25,4 +37,15 @@ img {
 
 #mySidebar {
     background-color: hotpink;
+}
+
+.fa {
+    padding: 20px;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
 }
