@@ -10,6 +10,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Sacramento&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 <link rel="stylesheet" href="style.css">
 <style>
     body,
@@ -57,6 +62,7 @@
             <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Stylist</a>
             <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Packages</a>
             <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+            <a href="reviews.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Reviews</a>
         </div>
     </nav>
 
@@ -75,7 +81,7 @@
 
         <!-- Header -->
 
-        <div class="w3-container" style="margin-top:80px;background-image:linear-gradient(to right, white , rgb(102, 99, 99));font-size: 60px;" id="showcase">
+        <div class="w3-container" style="margin-top:80px;background-image:linear-gradient(to right, white , rgb(235, 212, 212));font-size: 60px;" id="showcase">
             <a href="#" class="fa fa-facebook" style="background: #3B5998;
                 color: white; float:right;"></a>
             <a href="#" class="fa fa-vimeo" style="background: #45bbff;
@@ -111,7 +117,20 @@
 
         <h1 class="w3-xxxlarge w3-text-brown"><b>Showcase.</b></h1>
         <hr style="width:50px;border:5px solid #F3D437" class="w3-round">
-
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="https://scontent.fapa1-2.fna.fbcdn.net/v/t1.6435-9/188587578_4296101067101470_6859651213831884093_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=hsLn7_r0aiwAX_Fd9ia&_nc_ht=scontent.fapa1-2.fna&oh=ab601fccd00bcb0c048618ff5cd727ee&oe=60E010D4" alt="First slide"
+                style="width:150px;height:200px;border:outset 20px orange" onclick="onClick(this)">
+            </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
+              </div>
+            </div>
+          </div>
         <!-- Photo grid (modal) -->
         <div class="w3-row-padding">
             <div class="w3-half">
@@ -174,7 +193,7 @@
             <hr style="width:50px;border:8px solid #F3D437" class="w3-round">
             <h2>Lizzie Rushing</h2>
             <img src="https://scontent.fapa1-1.fna.fbcdn.net/v/t1.15752-9/201855256_250502323081411_3240412204221363804_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=ae9488&_nc_ohc=xYf7cV5vb-8AX85jWp3&_nc_ht=scontent.fapa1-1.fna&oh=c4617d8624ed094e189638ad321043b2&oe=60E02F0A"
-                alt="The stylist" id="photoo-main" style="width:250px;height:300px;border: dashed 15px #F337B4;">
+                alt="The stylist" id="photoo-main" style="width:250px;height:300px;">
             <p style="font-size: 23px;">The Best Stylist in Aurora Metro.</p>
             <p> I have been doing this since I was 11 and braiding hair is my <strong>passion</strong> and that my
                 customers are more than just that. <br>They are my <strong>friends</strong> and I care about each and
