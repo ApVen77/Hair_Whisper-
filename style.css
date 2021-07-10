@@ -3,7 +3,9 @@
 }
 
 
-
+.w3-row-padding-one {
+    margin-left: 500px;
+}
 .headhead {
     font-size: 40px;
     font-family: cursive;
@@ -31,9 +33,13 @@ img {
     border-radius: 30%;
 }
 
-#photoo-main {
-    border: solid 5px inset; 
-}
+#photoo-main 
+    {  
+        border: yellow 5px inset;
+        padding: 10px;
+        box-shadow: 15px 20px 8px #888888;
+      }
+
 
 #mySidebar {
     background-color: hotpink;
