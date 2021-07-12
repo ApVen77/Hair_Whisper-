@@ -3,9 +3,9 @@
 }
 
 
-.w3-row-padding-one {
-    margin-left: 500px;
-}
+/* .w3-row{
+    margin: 10px 500px; 
+} */
 .headhead {
     font-size: 40px;
     font-family: cursive;
@@ -424,4 +424,18 @@ label {
 
 .checked {
   color: orange;
+}
+
+@media (min-width: 350px) {
+.w3-half {
+    display: block;
+    margin-left: 0px;
+    float: left; 
+    
+}
+
+/* .w3-half w3-margin-bottom {
+    display: none;
+    
+} */
 }
