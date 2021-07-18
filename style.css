@@ -452,7 +452,7 @@ label {
 }
 
 
-#HCB_comment_box{
+/* #HCB_comment_box{
     font-size: 20px;
     color: white;
 }
@@ -473,7 +473,7 @@ label {
   }
   #HCB_comment_box .text-focus {
     color:rgb(252, 196, 196);
-  }
+  } */
 
   #HCB_comment_box .hcb-icon {
       
