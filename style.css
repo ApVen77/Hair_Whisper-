@@ -441,8 +441,42 @@ label {
     
 }
 
+.review-box {
+  margin: 10px 20px;
+}
+
 /* .w3-half w3-margin-bottom {
     display: none;
     
 } */
 }
+
+
+#HCB_comment_box{
+    font-size: 20px;
+    color: white;
+}
+
+#HCB_comment_box textarea {
+    height:50px;
+
+}
+
+
+
+#HCB_comment_box blockquote {
+    color: white;
+}
+
+#HCB_comment_box .text-blur {
+    color: white;
+  }
+  #HCB_comment_box .text-focus {
+    color:rgb(252, 196, 196);
+  }
+
+  #HCB_comment_box .hcb-icon {
+      
+      height: 50px;
+      width: 50px;
+  }
