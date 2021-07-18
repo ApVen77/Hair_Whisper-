@@ -13,6 +13,11 @@
     font-style: italic;
 }
 
+.w3-row-padding .w3-half img {
+  box-shadow: 15px 20px 8px #888888;
+  
+}
+
 ul {
     font-size: 26px; 
     margin: 5% 10%;
