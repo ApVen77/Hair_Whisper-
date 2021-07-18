@@ -452,9 +452,9 @@ label {
 }
 
 
-/* #HCB_comment_box{
+ #HCB_comment_box{
     font-size: 20px;
-    color: white;
+    color: black;
 }
 
 #HCB_comment_box textarea {
@@ -465,15 +465,15 @@ label {
 
 
 #HCB_comment_box blockquote {
-    color: white;
+    color: black;
 }
 
 #HCB_comment_box .text-blur {
-    color: white;
+    color: black;
   }
   #HCB_comment_box .text-focus {
     color:rgb(252, 196, 196);
-  } */
+  } 
 
   #HCB_comment_box .hcb-icon {
       
