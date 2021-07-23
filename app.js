@@ -198,3 +198,8 @@ var navRadioGroup = (evt) => {
     }
   }
 };
+
+function myfunction() {
+  alert("Your Message has been Sent!")
+  window.location.href = "mailto:april11dance@gmail.com";  
+};
