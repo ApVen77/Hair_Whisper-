@@ -64,10 +64,12 @@ img {
 }
 
 .jumbotron.jumbotron-fluid {
-  background-image: url("images/nikola-topic-yiEI30t0QzM-unsplash.jpg");
+  /* background-image: url("images/nikola-topic-yiEI30t0QzM-unsplash.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   height: 250px;
+  background-color: rgb(207, 0, 207);
+  margin-top: 20px;
 
 }
 
