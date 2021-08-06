@@ -207,6 +207,6 @@ function myfunction() {
 function phone() {
   var place= document.getElementById("demo");
   
-  place.innerHTML="tel: 5554280940";
+  place.innerHTML="tel: 720 709 8281";
 }
 
