@@ -42,7 +42,7 @@ img {
 
 #photoo-main 
     {  
-        border: rgb(243, 15, 129) 18px double;
+        border: 18px double rgb(243, 15, 129) ;
         padding: 10px;
         box-shadow: 15px 20px 8px #888888;
       }
