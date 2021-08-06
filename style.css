@@ -70,7 +70,21 @@ img {
   height: 250px;
   background-color: rgb(207, 0, 207);
   margin-top: 20px;
+  border: dotted 5px goldenrod;
 
+}
+
+.tele {
+     height: 50px;
+    width: 250px;
+    font-size: x-large;
+    
+}
+
+#demo {
+  color: hotpink;
+    font-size: 34px;
+    
 }
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700');

@@ -203,3 +203,10 @@ function myfunction() {
   alert("Your Message has been Sent!")
   window.location.href = "mailto:april11dance@gmail.com";  
 };
+
+function phone() {
+  var place= document.getElementById("demo");
+  
+  place.innerHTML="tel: 5554280940";
+}
+
