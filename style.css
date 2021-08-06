@@ -42,7 +42,7 @@ img {
 
 #photoo-main 
     {  
-        border: lime 8px inset;
+        border: rgb(243, 15, 129) 18px double;
         padding: 10px;
         box-shadow: 15px 20px 8px #888888;
       }
@@ -75,15 +75,18 @@ img {
 }
 
 .tele {
-     height: 50px;
+    height: 50px;
     width: 250px;
     font-size: x-large;
+    border: #9c27b0 dotted 5px;
+    margin-left: 20px;
     
 }
 
 #demo {
   color: hotpink;
     font-size: 34px;
+    text-align: center; 
     
 }
 
