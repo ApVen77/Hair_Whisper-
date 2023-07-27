@@ -65,10 +65,19 @@ img {
 .jumbotron.jumbotron {
   /* background-image: url("images/nikola-topic-yiEI30t0QzM-unsplash.jpg");
   background-size: cover;
-  background-repeat: no-repeat; */
+ background-repeat: no-repeat; */
   height: 250px;
   background-color: transparent;
-  margin-top: 20px;
+
+  opacity: 0.7;
+
+}
+
+#ss-review {
+  font-size: 1.5rem;
+  color: red;
+  text-align: center;
+  margin-top: .625rem;
 
 }
 
