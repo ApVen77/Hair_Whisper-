@@ -39,7 +39,10 @@ body {
 
 }
 
-
+.map iframe {
+  margin-left: 500px;
+  border: 5px double rgb(243, 15, 129);
+}
 
 img {
   border-radius: 30%;
